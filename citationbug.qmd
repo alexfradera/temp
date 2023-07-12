@@ -1,0 +1,23 @@
+---
+title: "Citation and footnote issues"
+bibliography: 'biblio.bib'
+csl: 'apa-6th-edition.csl'
+format:
+  html:
+       code-fold: true
+editor: visual
+---
+
+Normal ending citation [@Petersen2015a].
+
+Abnormally operating brackets [@Petersen2015][^1].
+
+[^1]: This footnote is directly adjacent
+
+Brackets resolve when spacing introduced [@Petersen2015] [^2].
+
+[^2]: This footnote follows a space
+
+Unbracketed citations seem to operate normally, such as @Sjoegren2005[^3]
+
+[^3]: Footnote adjacent to alphanumeric character rather than bracket
